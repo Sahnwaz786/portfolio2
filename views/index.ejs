@@ -1,0 +1,133 @@
+<head>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="/stylesheets/style.css">
+</head>
+
+<body>
+  <div id="cursor"></div>
+  <div class="wrapper">
+    <header id="header">
+      <div class="icon" id="menu-btn">
+        <a href="#navbar">
+          <i class="bi bi-list"></i>
+        </a>
+
+      </div>
+      <div class="hero" id="hero">
+      </div>
+
+      <div class="desc">
+        <h1>Hey, I'm <span class="name">Md Sahnwaz Alam</span>.</h1>
+        <p>A full-stack web developer.</p>
+      </div>
+    </header>
+    <nav id="navbar">
+      <ul>
+        <li><a href="#header" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#work" class="nav-link">Work</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+    <section id="about">
+      <h1>About</h1>
+      <div class="container hidden">
+        <div class="img-container">
+         <img src="/images/IMG_20191216_153548 (1).jpg" alt="">
+        </div>
+        <div>
+          <h2>Md Sahnwaz Alam</h2>
+          <p>Hey, I am a mern stack web developer. I specialize in creating dynamic and interactive websites by combining expertise in both front-end and back-end development. With a strong command of programming languages and frameworks. Constantly learning and adapting to new technologies.</p>
+          <div class="skills-container ">
+            <h3>Skills</h3>
+            <ul class="skillset">
+              <li>HTML, CSS & JavaScript</li>
+              <li>Node JS, Express JS, MongoDB </li>
+              <li>React, Redux & Firebase</li>
+              <li>Bootstrap & Tailwind CSS</li>
+              <li>Render, Vercel, Netlify</li>
+              <li>Git & Github</li>
+
+            </ul>
+          </div>
+          <!-- <div>
+            <h3>Frameworks & Environments</h3>
+            <ul class="skillset">
+             
+            </ul>
+          </div> -->
+
+        </div>
+      </div>
+
+    </section>
+    <div class="clearfix"></div>
+
+    <section id="work">
+      <h1>Work</h1>
+      <div id="carousel-wrapper" class="hidden">
+        <div id="menu">
+          <div id="current-option">
+            <h2 id="current-option-title">Book Store</h2>
+            <p id="current-option-text">The Book Store Project is a web application designed to manage and organize a bookstore's inventory. It simplifies the process of handling book information, customer orders, and overall store management. </p>
+          </div>
+          <div class="buttons">
+            <button id="previous-option"><i class="bi bi-chevron-left"></i></button>
+            <button id="next-option"><i class="bi bi-chevron-right"></i></button>
+          </div>
+        </div>
+        <div id="image-ctn" class="img-container"> 
+          <img src="https://plus.unsplash.com/premium_photo-1669652639356-f5cb1a086976?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Ym9va3MlMjBzdG9yZXxlbnwwfHwwfHx8MA%3D%3D" id="image"/>
+        </div>
+        <div class="demo-code" id="demo-code">
+          <button>
+            <a href="#" id="demo">Demo</a>
+          </button>
+          <button>
+            <a href="#" id="code">Code</a>
+          </button>
+        </div>
+
+      </div>
+    </section>
+    <section id="contact">
+      <h1>Contacts</h1>
+      <div class="form-container">
+        <form action="#" id="form">
+          <div class="input-area">
+            <label for="name">Name</label>
+            <input type="text" name="Name" id="name" required>
+          </div>
+          <div class="input-area">
+            <label for="phone">Phone</label>
+            <!-- JavaScript ile pattern uygulanacak. -->
+            <input type="tel" name="Phone" id="phone">
+          </div>
+          <div class="input-area">
+            <label for="email">E-mail</label>
+            <input type="email" name="e-mail" id="email" required>
+          </div>
+          <div class="input-area">
+            <textarea name="message" id="message" rows="3" maxlength="200" wrap="soft" placeholder="Write your message here..." required></textarea>
+          </div>
+
+          <input type="submit" value="Send">
+        </form>
+      </div>
+    </section>
+    <footer>
+      <div>
+        <p>Designed & coded by Md Sahnwaz Alam.</p>
+        <!-- <span>Dribble coming soon!</span> -->
+      </div>
+      <ul class="socials">
+        <li><a href="https://github.com/Sahnwaz786" target="_blank"><i class="bi bi-github"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/md-sahnwaz-alam-633548274/" target="_blank"><i class="bi bi-linkedin"></i></a></li>
+        <li><a href="mailto:mdsahnwazalam48@gmail.com"><i class="bi bi-envelope"></i></a></li>
+        <li><a href="tel:9693038061"><i class="bi bi-telephone-fill"></i></a></li>
+      </ul>
+    </footer>
+
+  </div>
+  <script src="/javascripts/script.js"></script>
+</body>
